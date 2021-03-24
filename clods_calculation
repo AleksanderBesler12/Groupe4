@@ -15,4 +15,7 @@ clods_amountns : Returns the number of clods a player has (int)
 
 """ 
 
+
+return clods_amount (int)
+
  
