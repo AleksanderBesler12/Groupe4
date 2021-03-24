@@ -1,1 +1,21 @@
+def distance_calculator (target_1 , target_2 ):
+" The fonction calculate the distance between the 2 ants
+
+Parameters
+----------
+
+target_1 : The position of the ant of the player (str)
+ 
+target_2 : The position of the ant enemy (str)
+
+Returns
+-------
+
+Returns the distance between the chosen ants
+
+"""
+
+return target_2 - target_1
+
+   
 
