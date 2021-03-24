@@ -1,1 +1,18 @@
 
+def clods_calculation (map):
+
+"""Calculate the number of clods a player has
+
+Parameters
+----------
+
+map: The data about the clod's player (dict)
+
+Returns
+-------
+
+clods_amountns : Returns the number of clods a player has (int)
+
+""" 
+
+ 
