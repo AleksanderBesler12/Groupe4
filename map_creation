@@ -1,1 +1,15 @@
+def map_creation(map_link):
+    """Creates a map / Shows the map to the players by using the information that are containted in the cpx file.
+    
+    Parameters
+    ----------
+    map_link: *pas sur*
 
+    Notes
+    -----
+
+    Returns
+    -------
+    map: the map (dict)
+
+    """
