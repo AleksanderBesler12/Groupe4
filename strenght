@@ -1,5 +1,5 @@
 def strength (ant):
-"Increase the strength of the ants depending of the level
+"Increase the strength of the ants depending of the level. This function call the function level
 
 Parameters
 ----------
@@ -13,6 +13,7 @@ Returns
 Returns the strength of the ants
 
 """
+level
 
 If level = 1:
   return strength = 1
