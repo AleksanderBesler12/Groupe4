@@ -1,7 +1,5 @@
 import random, blessed 
 
-ants = {}
-carte = {}
 
 def start_game(maplink, player2type):
 
