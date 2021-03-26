@@ -1,1 +1,20 @@
+def creation({map}, {ant}, turn_count):
+    """This function will create a ant every 5 turns next to each players anthill.
+    
+    Parameters
+    ----------
+    map: the map (dict)
+    ant: data concerning the ants (dict)
+    turn_count: Counts how many turn has been taken(int)
 
+    Notes
+    -----
+
+    Returns
+    -------
+    map: the map (dict)
+    ant: data concerning the ants (dict)
+
+    """
+    
+    Return(map,ant)
