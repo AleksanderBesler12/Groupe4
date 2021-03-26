@@ -1,4 +1,4 @@
-def strength (ant):
+def strength (level):
 """Increase the strength of the ants depending of the level. This function calls the function level
 
 Parameters
@@ -13,7 +13,6 @@ Returns
 Returns the strength of the ants
 
 """
-level (map)
 
 If level = 1:
   return strength = 1
