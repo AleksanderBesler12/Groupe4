@@ -1,5 +1,5 @@
 def level (map):
-"Calculate the level of the ants of each player dependind of the number of clods the player has
+"""Calculate the level of the ants of each player dependind of the number of clods the player has
 
 Parameters
 ---------
@@ -12,9 +12,9 @@ Returns
 
 Returns the level of the ants. Wich can be level 1,2,3"""
 
+ """
  
-
-map : 
+ clods_calculation (map)
 
 If clods_calculation <= 2:
    return level = 1
