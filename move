@@ -1,18 +1,19 @@
-def victory({map}, turn_count):
-    """Checks if all the necessary winning conditions are checked if yes then starts the win procedure.
+def move({map}, {ant}, turn):
+    """This function allows the player to move his ants when it's his turn.
     
     Parameters
     ----------
-    turn_count: Counts how many turn has been taken(int)
-
+    map: the map (dict)
+    ant: data concerning the ants (dict)
+    turn:  Tells wich player has his turn now(int)
+    
     Notes
     -----
-    - will call clods_calculation
+    - Will call turn 
+    - Will call map_update
     Returns
     -------
-    game_over:  State of the game(bool)
+    map: the map (dict)
+    ant: data concerning the ants (dict)
 
     """
-
-    clods_calculation({map})
-    if Clods_amount == "8":
