@@ -1,4 +1,4 @@
-def creation({map}, {ant}, turn_count):
+def creation(ants, carte, turn):
     """This function will create a ant every 5 turns next to each players anthill.
     
     Parameters
@@ -16,5 +16,8 @@ def creation({map}, {ant}, turn_count):
     ant: data concerning the ants (dict)
 
     """
+    plevel1 = level[0]
+    plevel2 = level[1]
+    
     
     Return(map,ant)
