@@ -1,4 +1,4 @@
-def level (map):
+def level_ant (map):
 """Calculate the level of the ants of each player dependind of the number of clods the player has
 
 Parameters
