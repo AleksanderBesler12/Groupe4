@@ -18,4 +18,8 @@ clods_amount : Returns the number of clods a player has (int)
 
 return clods_amount
 
+
+
+"specification : Erwin Wembo (v1. 19/03/2021)
+implementation : Erwin Wembo (v3 26/03/2021)"
  
