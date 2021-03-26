@@ -11,11 +11,11 @@ map: The data about the clod's player (dict)
 Returns
 -------
 
-clods_amountns : Returns the number of clods a player has (int)
+clods_amount : Returns the number of clods a player has (int)
 
 """ 
 
 
-return clods_amount (int)
+return clods_amount
 
  
