@@ -17,5 +17,9 @@ Returns the distance between the chosen ants
 
 return target_2 - target_1
 
+
+"specification : Erwin Wembo (v1. 19/03/2021)
+implementation : Erwin Wembo (v3 26/03/2021)"
+
    
 
