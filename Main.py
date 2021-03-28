@@ -19,7 +19,9 @@ def start_game(maplink, player2type):
     """
     turn = 0
     game_state = True
-    # map()
+    map_creation(maplink)
+    creation(ants, carte, turn)
+    map_update()
    
 
 
@@ -68,24 +70,4 @@ def start_game(maplink, player2type):
             creation(ants, carte, turn)
 
         game_state = end_game(clod_orders, ants, carte)
-    return()
-
-
-def clod_action(clod_orders, ants, carte):
-
-    return()
-
-def end_game(clod_orders, ants, carte):
-
-    return()
-
-def attack(clod_orders, ants, carte):
-
-    return()
-
-def move(clod_orders, ants, carte):
-
-    return()
-
-def creation(ants, carte, turn):
     return()
