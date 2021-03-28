@@ -21,7 +21,7 @@ def start_game(maplink, player2type):
     game_state = True
     map_creation(maplink)
     creation(ants, carte, turn)
-    map_update()
+    map_update(game_map,map_size,ant)
    
 
 
