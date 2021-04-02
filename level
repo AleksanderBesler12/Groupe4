@@ -19,7 +19,7 @@ Returns the level of the ants. Wich can be level 1,2,3"""
 If clods_calculation <= 2:
    return level = 1
 
-Elif clods_calculation >= 3 and clods_calculation >= 5 :
+Elif clods_calculation >= 3 and clods_calculation <= 5 :
    return level = 2
 
 Elif clods_calculation >= 6 and clods_calculation >= 8:
