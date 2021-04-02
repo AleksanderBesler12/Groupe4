@@ -15,7 +15,30 @@ Returns the distance between the chosen ants
 
 """
 
-return target_2 - target_1
+def distance_calculator(target_1,target_2):
+
+
+    x1,y1 = target_1.split(',')
+    x2,y2 = target_2.split(',')
+
+    distance_x = abs(x2-x1)
+
+    distance_y = abs(y2-y1)
+
+
+
+
+    if distance_x > distance_y:
+
+        distance_target = distance_x
+
+    else:
+
+        distance_target = distance_y
+
+
+    return distance_target
+  
 
 
 "specification : Erwin Wembo (v1. 19/03/2021)
